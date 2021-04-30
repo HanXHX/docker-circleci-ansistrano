@@ -1,0 +1,9 @@
+version: '3.5'
+
+services:
+  circleci-ansistrano:
+    image: hanxhx/circleci-ansistrano
+    tty: true
+    build:
+      context: ./docker/circleci-ansible
+    stop_grace_period: 1s
