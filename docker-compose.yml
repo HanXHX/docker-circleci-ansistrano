@@ -5,5 +5,5 @@ services:
     image: hanxhx/circleci-ansistrano
     tty: true
     build:
-      context: ./docker/circleci-ansible
+      context: ./docker/circleci-ansistrano
     stop_grace_period: 1s
